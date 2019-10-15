@@ -41,7 +41,6 @@ def update_selected():
     print(insert_text)  # getting empty value here . have to fix the issue
 
     def click():
-        global insert_text
         a = but1.cget('text')
 
         if a == 'Submit':
